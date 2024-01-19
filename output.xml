@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240118 22:49:23.600" rpa="false" schemaversion="4">
+<suite id="s1" name="Teste Previsaodotempo" source="C:\Users\Karem.caetano\google_search_test.robot\teste_previsaodotempo.robot">
+<test id="s1-t1" name="Cenário: Previsão do tempo em Porto Alegre" line="5">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>browser=chrome</arg>
+<arg>url=https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/363/portoalegre-rs</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240118 22:49:24.011" level="INFO">Opening browser 'chrome' to base url 'https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/363/portoalegre-rs'.</msg>
+<status status="PASS" starttime="20240118 22:49:24.011" endtime="20240118 22:49:31.362"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>30s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240118 22:50:01.362" level="INFO">Slept 30 seconds</msg>
+<status status="PASS" starttime="20240118 22:49:31.362" endtime="20240118 22:50:01.362"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240118 22:50:01.362" endtime="20240118 22:50:03.493"/>
+</kw>
+<status status="PASS" starttime="20240118 22:49:24.011" endtime="20240118 22:50:03.496"/>
+</test>
+<status status="PASS" starttime="20240118 22:49:23.600" endtime="20240118 22:50:03.498"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Teste Previsaodotempo">Teste Previsaodotempo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
